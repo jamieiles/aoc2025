@@ -75,6 +75,7 @@ class Grid:
         if filename and not lines:
             with open(filename) as f:
                 lines = f.readlines()
+        assert lines is not None
 
         self.grid = [[celltype(p) for p in line.strip()]
                      for line in lines]
