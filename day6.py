@@ -14,7 +14,7 @@ def solve(operator: str, values: list[int]) -> int:
 
 
 def part1() -> int:
-    with open(Path(__file__).parent / 'data' / 'day6_test.txt') as f:
+    with open(Path(__file__).parent / 'data' / 'day6.txt') as f:
         lines = [line.rstrip().split() for line in f.readlines()]
 
     total = 0
