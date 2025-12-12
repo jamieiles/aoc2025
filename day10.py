@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# /// script
+# dependencies = [
+#   "numpy",
+#   "scipy",
+# ]
+# ///
 from pathlib import Path
 from heapq import heappop, heappush
 import re
